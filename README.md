@@ -4,7 +4,7 @@
 
 
 ```
-> Funcionalidades - Caso de Uso de Terceiros
+_funcionalidades_ Funcionalidades - Caso de Uso de Terceiros
 ```
 
 ![Tela de Funcionalidades do VTecVistoria-Sys](http://apimltools.com.br/vtecvistoriaimg/funcionalidades.png "Apresentação Devolus")
@@ -56,6 +56,10 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
 ```
 
 ![Commit Update 0003 - VTecVistoria-Sys](http://apimltools.com.br/vtecvistoriaimg/commits-upd-0003.png "Atualização de Commits")
+
+```
+> Código primário de Dano, na Agregação Ambiente
+```
 
 ```CSharp
 
