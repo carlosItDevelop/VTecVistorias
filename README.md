@@ -1,4 +1,4 @@
-# Repositório Oficial do Projeto VTec Vistoria - Reafact - out-2019
+# Repositório Oficial do Projeto VTec Vistoria - Refactory - out-2019
 
 ## Os dados abaixo usei como exemplo para as chamadas dos códigos Gits (provisório).
 
