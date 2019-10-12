@@ -19,6 +19,7 @@
 ```
 
 ```C#
+
 using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
 using Microsoft.VisualBasic;
 using System;
@@ -52,4 +53,5 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
         public void AddGaleria()=> throw new NotImplementedException("Implemente o método!");
     }
 }
+
 ```
