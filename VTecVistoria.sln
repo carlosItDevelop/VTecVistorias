@@ -21,7 +21,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1.Data", "4.1.Data", "{C2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.EntityMap", "4.2.EntityMap", "{DAA5100E-095F-42AB-90FA-78BC48344927}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.3.CrossCutting", "4.3.CrossCutting", "{BA584BD9-FBE0-45BF-A629-56D4EB2F214D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Repository", "5.Repository", "{29E54463-CD5D-4268-8394-1F27BA6F2251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooperchip.VTecVistoria.Domain", "src\Cooperchip.VTecVistoria.Domain\Cooperchip.VTecVistoria.Domain.csproj", "{81878133-1F81-4BDE-903B-DEBE79C7276B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81878133-1F81-4BDE-903B-DEBE79C7276B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81878133-1F81-4BDE-903B-DEBE79C7276B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81878133-1F81-4BDE-903B-DEBE79C7276B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81878133-1F81-4BDE-903B-DEBE79C7276B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -31,6 +47,8 @@ Global
 		{A04D8CB5-6F5E-4254-89E6-2DD7407BD4A7} = {2901A465-13D8-469B-8670-0E8A6A5F428C}
 		{C27F3BDE-32A4-4DF5-8B0F-3D1A6B3D6ECA} = {1A7B858A-15D2-4F02-9506-F97200E8330B}
 		{DAA5100E-095F-42AB-90FA-78BC48344927} = {1A7B858A-15D2-4F02-9506-F97200E8330B}
+		{BA584BD9-FBE0-45BF-A629-56D4EB2F214D} = {1A7B858A-15D2-4F02-9506-F97200E8330B}
+		{81878133-1F81-4BDE-903B-DEBE79C7276B} = {D0B1F13D-2586-4F65-804D-1B9E3725C373}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89988819-31F1-433B-B2F7-26E5A98E6671}
