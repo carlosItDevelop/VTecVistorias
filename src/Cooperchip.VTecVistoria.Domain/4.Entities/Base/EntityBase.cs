@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cooperchip.VTecVistoria.Domain._4.Entities._1.Base
+namespace Cooperchip.VTecVistoria.Domain._4.Entities.Base
 {
     public class EntityBase
     {

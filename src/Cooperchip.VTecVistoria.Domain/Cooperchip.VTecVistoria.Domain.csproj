@@ -8,8 +8,6 @@
     <Folder Include="1.Interfaces\" />
     <Folder Include="2.Services\" />
     <Folder Include="3.Repositories\" />
-    <Folder Include="4.Entities\2.Models\" />
-    <Folder Include="4.Entities\2.Models\Agragates\" />
   </ItemGroup>
 
 </Project>
