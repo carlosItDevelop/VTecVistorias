@@ -6,14 +6,14 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
 {
     public class Dano : EntityBase
     {
-        public Dano(string nome, Guid AmbienteId)
+        public Dano(string nome, Guid ambienteId)
         {
             this.Nome = nome;
-            this.AmbienteId = AmbienteId;
+            this.AmbienteId = ambienteId;
         }
 
         public string Nome { get; private set; }
-        public Guid AmbienteId { get; set; }
+        public Guid AmbienteId { get; private set; }
         public Ambiente Ambiente { get; set; }
     }
 }

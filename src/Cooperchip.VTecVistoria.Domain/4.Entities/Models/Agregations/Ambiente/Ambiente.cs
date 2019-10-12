@@ -13,8 +13,8 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
             this.Nome = nome;
             this.Subtitulo = (!string.IsNullOrEmpty(subtitulo)) ? this.Subtitulo = subtitulo : "";
         }
-        public string Nome { get; set; }
-        public string Subtitulo { get; set; }
+        public string Nome { get; private set; }
+        public string Subtitulo { get; private set; }
         public GaleriaAmbiente GaleriaAmbiente { get; set; }
         public ICollection<ItensAmbiente> ItensAmbientes { get; set; }
         public ICollection<MobiliaAmbiente> MobiliaAmbientes { get; set; }

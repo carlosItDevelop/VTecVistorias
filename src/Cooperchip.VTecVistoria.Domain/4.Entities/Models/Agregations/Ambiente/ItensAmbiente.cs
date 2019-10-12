@@ -7,16 +7,15 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
 {
     public class ItensAmbiente : EntityBase
     {
-        public ItensAmbiente(string nome, Guid AmbienteId)
+        public ItensAmbiente(string nome, Guid ambienteId)
         {
             this.Nome = nome;
-
+            this.AmbienteId = ambienteId;
         }
 
         public string Nome { get; private set; }
         
-        
-        public Guid AmbienteId { get; set; }
+        public Guid AmbienteId { get; private set; }
         public Ambiente Ambiente { get; set; }
     }
 }
