@@ -19,22 +19,22 @@
 ```
 
 ```CShap
-
+using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
-using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
 
 namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
 {
     public class Ambiente : EntityBase
     {
-        public Ambiente()
+        public Ambiente(string nome, string subtitulo)
         {
+            this.Nome = nome;
+            this.Subtitulo = (!string.IsNullOrEmpty(subtitulo)) ? this.Subtitulo = subtitulo : "";
         }
-
         public string Nome { get; set; }
-        public string Sobrenome { get; set; }
-
+        public string Subtitulo { get; set; }
         public GaleriaAmbiente GaleriaAmbiente { get; set; }
         public ICollection<ItensAmbiente> ItensAmbientes { get; set; }
         public ICollection<MobiliaAmbiente> MobiliaAmbientes { get; set; }
@@ -42,22 +42,14 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
 
         public string NomeCompleto()
         {
-            return this.Nome + " " + this.Sobrenome;
+            return Strings.LTrim(this.Nome + " " + this.Subtitulo);
         }
-
         public void AddItems(string nome, Guid AmbienteId)
         {
             ItensAmbiente item = new ItensAmbiente(nome, AmbienteId);
             ItensAmbientes.Add(item);
         }
-
-        public void AddGaleria()
-        {
-
-        }
-
+        public void AddGaleria()=> throw new NotImplementedException("Implemente o método!");
     }
-
 }
-
 ```
