@@ -22,11 +22,11 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
 
         public string NomeCompleto()
         {
-            return Strings.LTrim(this.Nome + " " + this.Subtitulo);
+            return Strings.Trim(this.Nome + " " + this.Subtitulo);
         }
-        public void AddItems(string nome, Guid AmbienteId)
+        public void AddItems(string nome, Guid ambienteId)
         {
-            ItensAmbiente item = new ItensAmbiente(nome, AmbienteId);
+            ItensAmbiente item = new ItensAmbiente(nome, ambienteId);
             ItensAmbientes.Add(item);
         }
         public void AddGaleria()=> throw new NotImplementedException("Implemente o método!");
