@@ -28,8 +28,8 @@
 				this.Nome = nome;
 				this.Subtitulo = (!string.IsNullOrEmpty(subtitulo)) ? this.Subtitulo = subtitulo : "";
 			}
-			public string Nome { get; set; }
-			public string Subtitulo { get; set; }
+			public string Nome { get; private set; }
+			public string Subtitulo { get; private set; }
 			public GaleriaAmbiente GaleriaAmbiente { get; set; }
 			public ICollection<ItensAmbiente> ItensAmbientes { get; set; }
 			public ICollection<MobiliaAmbiente> MobiliaAmbientes { get; set; }
@@ -37,13 +37,19 @@
 
 			public string NomeCompleto()
 			{
-				return Strings.LTrim(this.Nome + " " + this.Subtitulo);
+				return Strings.Trim(this.Nome + " " + this.Subtitulo);
 			}
-			public void AddItems(string nome, Guid AmbienteId)
+			public void AddItems(string nome, Guid ambienteId)
 			{
-				ItensAmbiente item = new ItensAmbiente(nome, AmbienteId);
+				ItensAmbiente item = new ItensAmbiente(nome, ambienteId);
 				ItensAmbientes.Add(item);
 			}
+			public void AddIDanos(string nome, Guid ambienteId)
+			{
+				Dano item = new Dano(nome, ambienteId);
+				Danos.Add(item);
+			}
+
 			public void AddGaleria()=> throw new NotImplementedException("Implemente o método!");
 		}
 	}
