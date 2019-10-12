@@ -1,12 +1,10 @@
-
-#Repositório Oficial do Projeto VTec Vistoria - Reafact - out-2019
+# Repositório Oficial do Projeto VTec Vistoria - Reafact - out-2019
 
 ## Os dados abaixo usei como exemplo para as chamadas dos códigos Gits (provisório).
 
 ## Início do refatoramento do projeto: 12/10/2019 - Fim do refatoramanto: 28/10/2019
 
-
-##Diário de Bordo e Tasklist do Sistema VTecVistoria-Sys;
+## Diário de Bordo e Tasklist do Sistema VTecVistoria-Sys;
 ### Lista de tarefas pendentes e releases do aplicativo:
 
 ```html
