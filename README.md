@@ -15,39 +15,39 @@
 
 ```CSharp
 
-using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
-using Microsoft.VisualBasic;
-using System;
-using System.Collections.Generic;
+	using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
+	using Microsoft.VisualBasic;
+	using System;
+	using System.Collections.Generic;
 
-namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
-{
-    public class Ambiente : EntityBase
-    {
-        public Ambiente(string nome, string subtitulo)
-        {
-            this.Nome = nome;
-            this.Subtitulo = (!string.IsNullOrEmpty(subtitulo)) ? this.Subtitulo = subtitulo : "";
-        }
-        public string Nome { get; set; }
-        public string Subtitulo { get; set; }
-        public GaleriaAmbiente GaleriaAmbiente { get; set; }
-        public ICollection<ItensAmbiente> ItensAmbientes { get; set; }
-        public ICollection<MobiliaAmbiente> MobiliaAmbientes { get; set; }
-        public ICollection<Dano> Danos { get; set; }
+	namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
+	{
+		public class Ambiente : EntityBase
+		{
+			public Ambiente(string nome, string subtitulo)
+			{
+				this.Nome = nome;
+				this.Subtitulo = (!string.IsNullOrEmpty(subtitulo)) ? this.Subtitulo = subtitulo : "";
+			}
+			public string Nome { get; set; }
+			public string Subtitulo { get; set; }
+			public GaleriaAmbiente GaleriaAmbiente { get; set; }
+			public ICollection<ItensAmbiente> ItensAmbientes { get; set; }
+			public ICollection<MobiliaAmbiente> MobiliaAmbientes { get; set; }
+			public ICollection<Dano> Danos { get; set; }
 
-        public string NomeCompleto()
-        {
-            return Strings.LTrim(this.Nome + " " + this.Subtitulo);
-        }
-        public void AddItems(string nome, Guid AmbienteId)
-        {
-            ItensAmbiente item = new ItensAmbiente(nome, AmbienteId);
-            ItensAmbientes.Add(item);
-        }
-        public void AddGaleria()=> throw new NotImplementedException("Implemente o método!");
-    }
-}
+			public string NomeCompleto()
+			{
+				return Strings.LTrim(this.Nome + " " + this.Subtitulo);
+			}
+			public void AddItems(string nome, Guid AmbienteId)
+			{
+				ItensAmbiente item = new ItensAmbiente(nome, AmbienteId);
+				ItensAmbientes.Add(item);
+			}
+			public void AddGaleria()=> throw new NotImplementedException("Implemente o método!");
+		}
+	}
 
 ```
 
@@ -63,23 +63,48 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
 
 ```CSharp
 
-using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
-using System;
+	using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
+	using System;
 
-namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
-{
-    public class Dano : EntityBase
-    {
-        public Dano(string nome, Guid AmbienteId)
-        {
-            this.Nome = nome;
-            this.AmbienteId = AmbienteId;
-        }
+	namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
+	{
+		public class Dano : EntityBase
+		{
+			public Dano(string nome, Guid AmbienteId)
+			{
+				this.Nome = nome;
+				this.AmbienteId = AmbienteId;
+			}
 
-        public string Nome { get; private set; }
-        public Guid AmbienteId { get; set; }
-        public Ambiente Ambiente { get; set; }
-    }
-}
+			public string Nome { get; private set; }
+			public Guid AmbienteId { get; set; }
+			public Ambiente Ambiente { get; set; }
+		}
+	}
+
+```
+
+- Código primário: MobiliaAmbiente.
+
+```CSharp
+
+	using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
+	using System;
+
+	namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
+	{
+		public class MobiliaAmbiente : EntityBase
+		{
+			public MobiliaAmbiente(string nome, Guid ambienteid)
+			{
+				this.Nome = nome;
+				this.AmbienteId = ambienteid;
+			}
+
+			public string Nome { get; private set; }
+			public Guid AmbienteId { get; private set; }
+			public Ambiente Ambiente { get; set; }
+		}
+	}
 
 ```
