@@ -18,7 +18,7 @@
 > Código primário da Agregação Ambiente
 ```
 
-```CShap
+```C#
 using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
 using Microsoft.VisualBasic;
 using System;
