@@ -2,11 +2,6 @@
 
 ### Início do refatoramento do projeto: 12/10/2019 - Fim do refatoramanto: 28/10/2019
 
-```
-> Imagem da Tela Inicial - Caso de Uso de Terceiros
-```
-
-![Tela Inicial do Sistema VTecVistoria-Sys](http://apimltools.com.br/vtecvistoriaimg/apresentacao-devolus1280x720.png "Apresentação Devolus")
 
 ```
 > Funcionalidades - Caso de Uso de Terceiros
@@ -61,3 +56,26 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
 ```
 
 ![Commit Update 0003 - VTecVistoria-Sys](http://apimltools.com.br/vtecvistoriaimg/commits-upd-0003.png "Atualização de Commits")
+
+```CSharp
+
+using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
+using System;
+
+namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
+{
+    public class Dano : EntityBase
+    {
+        public Dano(string nome, Guid AmbienteId)
+        {
+            this.Nome = nome;
+            this.AmbienteId = AmbienteId;
+        }
+
+        public string Nome { get; private set; }
+        public Guid AmbienteId { get; set; }
+        public Ambiente Ambiente { get; set; }
+    }
+}
+
+```
