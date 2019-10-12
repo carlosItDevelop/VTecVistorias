@@ -29,6 +29,12 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
             ItensAmbiente item = new ItensAmbiente(nome, ambienteId);
             ItensAmbientes.Add(item);
         }
+        public void AddIDanos(string nome, Guid ambienteId)
+        {
+            Dano item = new Dano(nome, ambienteId);
+            Danos.Add(item);
+        }
+
         public void AddGaleria()=> throw new NotImplementedException("Implemente o método!");
     }
 }

@@ -3,15 +3,14 @@
 ### Início do refatoramento do projeto: 12/10/2019 - Fim do refatoramanto: 28/10/2019
 
 
-```
+
 - Funcionalidades - Caso de Uso de Terceiros
-```
+
 
 ![Tela de Funcionalidades do VTecVistoria-Sys](http://apimltools.com.br/vtecvistoriaimg/funcionalidades.png "Apresentação Devolus")
 
-```
+
 - Código primário da Agregação Ambiente
-```
 
 ```CSharp
 
@@ -51,15 +50,17 @@
 
 ```
 
-```
+
 - Controle Visual de Updates - Atualização de Commits
-```
 
 ![Commit Update 0003 - VTecVistoria-Sys](http://apimltools.com.br/vtecvistoriaimg/commits-upd-0003.png "Atualização de Commits")
 
-```
-- Código primário de Dano, na Agregação Ambiente
-```
+
+- Código primário de Dano, na Agregação Ambiente;
+- Precisa receber um Nome para a instância e o Id do Ambiente;
+- Pertence a um Ambiente, que é onde deve ser inserido ou removido;
+- Seguindo o padrão de Domínio Rico no caso acima;
+
 
 ```CSharp
 
