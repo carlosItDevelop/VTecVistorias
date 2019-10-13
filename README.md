@@ -116,6 +116,8 @@
 
 ```
 
+## DataCadastro:
+> Todo: O campo DataCadastro deve ser incluído automaticamente, mas não deve ser alterado. Este processo será implementado no contexto da aplicação.
 
 # Agregação Vistoria
 ### Nesta agregação ele é Object Root de Ambiente, que tem sua própria agregação bem desenhada
