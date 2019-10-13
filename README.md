@@ -120,13 +120,12 @@
 # Agregação Vistoria
 ### Nesta agregação ele é Object Root de Ambiente, que tem sua própria agregação bem desenhada
 
----
-
 > Próximos passos:
 
 * Agregar Vistoria com Ambiente, DadosGerais e Medidores
 * Acima desta agregação, Vistoria é filha de Cliente (Imobiliaria)
 
+---
 **Atenção:** Cliente é quem tem os dados de Imovel, Locador e Locatario
 
 ```html
