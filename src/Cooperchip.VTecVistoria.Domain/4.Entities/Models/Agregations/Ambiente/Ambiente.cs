@@ -3,6 +3,8 @@ using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
 using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
+using Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Vistorias;
+
 
 namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
 {
@@ -15,6 +17,10 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
         }
         public string Nome { get; private set; }
         public string Subtitulo { get; private set; }
+        public Vistoria Vistoria { get; set; }
+
+        // Todo: Este campo tem uma relação 0:1 com Galeria (Navewgação).
+        // Todo: Ambiente pode ter uma Galeria, mas galeria sempre tem um Ambiente.
         public GaleriaAmbiente GaleriaAmbiente { get; set; }
         public ICollection<ItensAmbiente> ItensAmbientes { get; set; }
         public ICollection<MobiliaAmbiente> MobiliaAmbientes { get; set; }
