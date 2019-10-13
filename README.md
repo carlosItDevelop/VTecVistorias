@@ -7,7 +7,7 @@
 - Funcionalidades - Caso de Uso de Terceiros
 
 
-![Tela de Funcionalidades do VTecVistoria-Sys](http://apimltools.com.br/vtecvistoriaimg/funcionalidades.png "Apresentação Devolus")
+![Tela de Funcionalidades do VTecVistoria-Sys](http://apimltools.com.br/vtecvistoriaimg/funcionalidades1280x720.png "Apresentação - VTecVistoria-Sys")
 
 
 - Código primário da Agregação Ambiente
