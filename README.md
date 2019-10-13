@@ -136,8 +136,8 @@
 * Agregar Vistoria com Ambiente, DadosGerais e Medidores
 * Acima desta agregação, Vistoria é filha de Cliente (Imobiliaria)
 
----
-**Atenção:** Cliente é quem tem os dados de Imovel, Locador e Locatario
+> *GaleriaAmbiente:* Modelagem inicial de GaleriaAmbiente, que tem uma relação de N : 0 para Ambiente.
+
 
 ```CSharp
 
@@ -173,6 +173,7 @@
 
 ```
 
+> **Atenção:** Cliente é quem tem os dados de Imovel, Locador e Locatario
 
 ```html
 <h1>Usando HTML</h1>
