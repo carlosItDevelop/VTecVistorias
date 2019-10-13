@@ -211,6 +211,30 @@ console.log('WriteMe.md');
 
 ---
 
+## TaskList
+
+- [x] Terminar métodos de domínio
+- [x] Criar projeto Acesso a Dados
+- [ ] Criar contexto de conexão
+- [ ] Criar projeto MVC
+- [ ] Configurar EntityFramework em Data
+- [ ] Configurar Startup.cs e appsettings.json
+- [ ] Criar fora do projeto o arquivo Global.json
+
+## TaskList
+
+ Feature								| Prioridade	| Status	
+---------------------------------------	| -------------	| ---------	
+ Terminar métodos de domínio			| Alta			| Ok		
+ Criar projeto Acesso a Dados			| Alta			| Ok		
+ Criar contexto de conexão				| Normal		| Not		
+ Criar projeto MVC						| Baixa			| Not		
+ Configurar EntityFramework em Data		| Alta			| Not		
+ Criar o arquivo Global.json			| Baixa			| Not		
+
+
+---
+
 Consultar a documentação para TagHelpers e ViewComponents, **[Leia aqui](https://docs.microsoft.com/pt-br/)**.
 Consultar a documentação para MarkDown, **[Leia aqui](http://daringfireball.net/projects/markdown/basics)**.
 
