@@ -122,7 +122,7 @@
 
 ---
 
-Próximos passos:
+> Próximos passos:
 
 * Agregar Vistoria com Ambiente, DadosGerais e Medidores
 * Acima desta agregação, Vistoria é filha de Cliente (Imobiliaria)
