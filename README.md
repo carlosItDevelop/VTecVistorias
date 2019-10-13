@@ -14,10 +14,13 @@
 
 ```CSharp
 
+
 	using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
 	using Microsoft.VisualBasic;
 	using System;
 	using System.Collections.Generic;
+	using Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Vistorias;
+
 
 	namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
 	{
@@ -30,6 +33,10 @@
 			}
 			public string Nome { get; private set; }
 			public string Subtitulo { get; private set; }
+			public Vistoria Vistoria { get; set; }
+
+			// Todo: Este campo tem uma relação 0:1 com Galeria (Navewgação).
+			// Todo: Ambiente pode ter uma Galeria, mas galeria sempre tem um Ambiente.
 			public GaleriaAmbiente GaleriaAmbiente { get; set; }
 			public ICollection<ItensAmbiente> ItensAmbientes { get; set; }
 			public ICollection<MobiliaAmbiente> MobiliaAmbientes { get; set; }
@@ -53,6 +60,7 @@
 			public void AddGaleria()=> throw new NotImplementedException("Implemente o método!");
 		}
 	}
+
 
 ```
 
@@ -130,6 +138,41 @@
 
 ---
 **Atenção:** Cliente é quem tem os dados de Imovel, Locador e Locatario
+
+```CSharp
+
+	using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
+	using System;
+
+	namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
+	{
+		public class GaleriaAmbiente : EntityBase
+		{
+			/// <summary>
+			/// Galeria sempre tem um Ambiente
+			/// </summary>
+			/// <param name="nome"></param>
+			/// <param name="ambienteId"></param>
+			public GaleriaAmbiente(string nome, Guid ambienteId)
+			{
+				this.Nome = nome;
+				this.AmbienteId = ambienteId;
+			}
+
+			public string Nome { get; private set; }
+
+			public virtual Ambiente Ambiente { get; set; }
+        
+			/// <summary>
+			/// ForeingKey para Id em Ambiente
+			/// </summary>
+			public Guid AmbienteId { get; set; }
+
+		}
+	}
+
+```
+
 
 ```html
 <h1>Usando HTML</h1>
