@@ -173,7 +173,7 @@
 
 ```
 
-> **Atenção:** Cliente é quem tem os dados de Imovel, Locador e Locatario
+> *Atenção:* Cliente é quem tem os dados de Imovel, Locador e Locatario
 
 ```html
 <h1>Usando HTML</h1>
