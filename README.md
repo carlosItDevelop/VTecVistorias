@@ -213,24 +213,14 @@ console.log('WriteMe.md');
 
 ## TaskList
 
-- [x] Terminar métodos de domínio
-- [x] Criar projeto Acesso a Dados
-- [ ] Criar contexto de conexão
-- [ ] Criar projeto MVC
-- [ ] Configurar EntityFramework em Data
-- [ ] Configurar Startup.cs e appsettings.json
-- [ ] Criar fora do projeto o arquivo Global.json
-
-## TaskList
-
- Feature								| Prioridade	| Status	
----------------------------------------	| -------------	| ---------	
- Terminar métodos de domínio			| Alta			| Ok		
- Criar projeto Acesso a Dados			| Alta			| Ok		
- Criar contexto de conexão				| Normal		| Not		
- Criar projeto MVC						| Baixa			| Not		
- Configurar EntityFramework em Data		| Alta			| Not		
- Criar o arquivo Global.json			| Baixa			| Not		
+ Feature								| Prioridade	| Complexidade	| Status	
+---------------------------------------	| -------------	| -------------	| ---------	
+ Terminar métodos de domínio			| Alta			| Alta			| Ok		
+ Criar projeto Acesso a Dados			| Alta			| Baixa			| Ok		
+ Criar contexto de conexão				| Normal		| Baixa			| Not		
+ Criar projeto MVC						| Baixa			| Baixa			| Not		
+ Configurar EntityFramework em Data		| Alta			| Normal		| Not		
+ Criar o arquivo Global.json			| Baixa			| Baixa			| Not		
 
 
 ---
