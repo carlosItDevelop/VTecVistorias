@@ -117,6 +117,7 @@
 ```
 
 ## DataCadastro:
+
 > Todo: O campo DataCadastro deve ser incluído automaticamente, mas não deve ser alterado. Este processo será implementado no contexto da aplicação.
 
 # Agregação Vistoria
@@ -150,3 +151,8 @@ console.log('WriteMe.md');
 
 Consultar a documentação para TagHelpers e ViewComponents, **[Leia aqui](https://docs.microsoft.com/pt-br/)**.
 Consultar a documentação para MarkDown, **[Leia aqui](http://daringfireball.net/projects/markdown/basics)**.
+
+> Controle Visual de Updates - Atualização de Commits
+
+![Commit Update 0004 - VTecVistoria-Sys](http://apimltools.com.br/vtecvistoriaimg/commits-upd-0004.png "Atualização de Commits")
+
