@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
 
 namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Imobiliarias
 {
-    class Imobiliaria
+    public class Imobiliaria : EntityBase
     {
     }
 }

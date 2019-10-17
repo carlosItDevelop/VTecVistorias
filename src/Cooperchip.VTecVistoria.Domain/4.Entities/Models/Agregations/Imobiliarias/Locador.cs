@@ -1,6 +1,8 @@
-﻿namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Imobiliarias
+﻿using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
+
+namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Imobiliarias
 {
-    public class Locador
+    public class Locador : EntityBase
     {
         
     }
