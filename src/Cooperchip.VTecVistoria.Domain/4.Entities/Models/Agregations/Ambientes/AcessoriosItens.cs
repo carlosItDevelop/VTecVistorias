@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
+namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambientes
 {
     public class AcessoriosItens
     {

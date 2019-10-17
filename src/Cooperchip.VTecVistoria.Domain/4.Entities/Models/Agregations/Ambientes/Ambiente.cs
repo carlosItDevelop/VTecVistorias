@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Vistorias;
 
 
-namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
+namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambientes
 {
     public class Ambiente : EntityBase
     {

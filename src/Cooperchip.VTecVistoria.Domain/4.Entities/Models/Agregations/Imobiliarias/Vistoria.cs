@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
+using Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambientes;
 
-namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Vistorias
+namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Imobiliarias
 {
     public class Vistoria : EntityBase
     {
@@ -11,6 +12,6 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Vistoria
         }
 
         public string Descricao { get; set; }
-        public ICollection<Ambiente.Ambiente> Ambientes { get; set; }
+        public ICollection<Ambiente> Ambientes { get; set; }
     }
 }

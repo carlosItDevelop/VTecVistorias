@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
 
-namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
+namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambientes
 {
     public class ItensAmbiente : EntityBase
     {
