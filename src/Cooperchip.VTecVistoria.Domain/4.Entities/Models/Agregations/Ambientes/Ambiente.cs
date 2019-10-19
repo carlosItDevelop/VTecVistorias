@@ -1,9 +1,9 @@
 ﻿
 using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
+using Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Imobiliarias;
 using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
-using Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Vistorias;
 
 
 namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambientes
