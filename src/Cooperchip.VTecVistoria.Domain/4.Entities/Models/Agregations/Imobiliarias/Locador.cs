@@ -4,6 +4,9 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Imobilia
 {
     public class Locador : EntityBase
     {
-        
+        public Locador()
+        {
+            
+        }
     }
 }
