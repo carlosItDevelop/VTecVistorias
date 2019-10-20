@@ -225,6 +225,12 @@ console.log('WriteMe.md');
 
 ---
 
+> New Feature
+
+- [x] Completar todas as propriedades das entidades
+- [ ] Incluir os métodos Ad Hocs Setters and Getters
+- [ ] Criar o primeiro contexto
+
 Consultar a documentação para TagHelpers e ViewComponents, **[Leia aqui](https://docs.microsoft.com/pt-br/)**.
 Consultar a documentação para MarkDown, **[Leia aqui](http://daringfireball.net/projects/markdown/basics)**.
 
