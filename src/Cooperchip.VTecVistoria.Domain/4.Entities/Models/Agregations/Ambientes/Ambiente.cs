@@ -3,11 +3,12 @@ using Cooperchip.VTecVistoria.DomainCore.Base;
 using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
+using Cooperchip.VTecVistoria.DomainCore.Interface;
 
 
 namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambientes
 {
-    public class Ambiente : EntityBase
+    public class Ambiente : EntityBase, IAggregateRoot
     {
         public Ambiente(string nome, string subtitulo)
         {
