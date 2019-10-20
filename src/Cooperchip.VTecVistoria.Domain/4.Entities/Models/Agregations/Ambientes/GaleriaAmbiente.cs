@@ -19,12 +19,12 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
 
         public string Nome { get; private set; }
 
-        public virtual Ambiente Ambiente { get; set; }
+        public virtual Ambiente Ambiente { get;  }
         
         /// <summary>
         /// ForeingKey para Id em Ambiente
         /// </summary>
-        public Guid AmbienteId { get; set; }
+        public Guid AmbienteId { get; private set; }
 
     }
 }

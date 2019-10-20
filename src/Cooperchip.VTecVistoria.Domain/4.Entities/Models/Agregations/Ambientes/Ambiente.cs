@@ -10,21 +10,21 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
 {
     public class Ambiente : EntityBase, IAggregateRoot
     {
-        public Ambiente(string nome, string subtitulo)
+        public Ambiente(string nome, string subtitulo, Guid vistoriaId)
         {
             this.Nome = nome;
+            this.VistoriaId = vistoriaId;
             this.Subtitulo = (!string.IsNullOrEmpty(subtitulo)) ? this.Subtitulo = subtitulo : "";
         }
         public string Nome { get; private set; }
         public string Subtitulo { get; private set; }
-        public Vistoria Vistoria { get; set; }
 
-        // Todo: Este campo tem uma relação 0:1 com Galeria (Navewgação).
-        // Todo: Ambiente pode ter uma Galeria, mas galeria sempre tem um Ambiente.
-        public GaleriaAmbiente GaleriaAmbiente { get; set; }
-        public ICollection<ItensAmbiente> ItensAmbientes { get; set; }
-        public ICollection<MobiliaAmbiente> MobiliaAmbientes { get; set; }
-        public ICollection<Dano> Danos { get; set; }
+        public Guid VistoriaId { get; private set; }
+        public Vistoria Vistoria { get; private set; }
+
+        public ICollection<ItensAmbiente> ItensAmbientes { get; private set; }
+        public ICollection<MobiliaAmbiente> MobiliaAmbientes { get; private set; }
+        public ICollection<Dano> Danos { get; private set; }
 
         public string NomeCompleto()
         {
