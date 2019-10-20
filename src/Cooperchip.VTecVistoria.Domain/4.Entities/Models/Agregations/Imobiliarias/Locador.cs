@@ -1,4 +1,4 @@
-﻿using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
+﻿using Cooperchip.VTecVistoria.DomainCore.Base;
 
 namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Imobiliarias
 {

@@ -1,6 +1,5 @@
-﻿
-using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
-using Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Imobiliarias;
+﻿using Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Imobiliarias;
+using Cooperchip.VTecVistoria.DomainCore.Base;
 using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;

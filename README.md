@@ -12,7 +12,7 @@
 - Código primário da Agregação Ambiente
 
 ```CSharp
-using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
+using Cooperchip.VTecVistoria.DomainCore.Base;
 using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
@@ -96,7 +96,7 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Base
 
 
 ```CSharp
-using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
+using Cooperchip.VTecVistoria.DomainCore.Base;
 using System;
 
 namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
@@ -119,7 +119,7 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
 - Código primário: MobiliaAmbiente.
 
 ```CSharp
-using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
+using Cooperchip.VTecVistoria.DomainCore.Base;
 using System;
 
 namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
@@ -155,7 +155,7 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente
 
 
 ```CSharp
-using Cooperchip.VTecVistoria.Domain._4.Entities.Base;
+using Cooperchip.VTecVistoria.DomainCore.Base;
 using System;
 
 namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Ambiente

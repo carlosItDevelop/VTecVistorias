@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace Cooperchip.VTecVistoria.Domain._4.Entities.Base
+namespace Cooperchip.VTecVistoria.DomainCore.Base
 {
     public class EntityBase
     {
@@ -12,7 +12,7 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Base
         {
             this.Id = Guid.NewGuid();
         }
-        public Guid Id { get; set; }
+        public Guid Id { get; }
         public DateTime DataCadastro { get; set; }
 
         public override bool Equals(object obj)
@@ -20,6 +20,10 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Base
             var compareTo = obj as EntityBase;
             if (ReferenceEquals(this, compareTo)) return true;
             if (ReferenceEquals(null, compareTo)) return false;
+            
+            // Todo: Sugerido pelo ReSharp sobre a abordagem acima:
+            // Todo: Maneira mais inteligente de fazer, mas deixar eu analizar um pouco mais!
+            //return !ReferenceEquals(null, compareTo) && Id.Equals(compareTo.Id);
 
             return Id.Equals(compareTo.Id);
         }
@@ -40,14 +44,14 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Base
             return !(a==b);
         }
 
-        public int GetHasCode()
+        public override int GetHashCode()
         {
             return (GetType().GetHashCode() * 13) + Id.GetHashCode();
         }
 
         public override string ToString()
         {
-            return GetType().Name + "[Id=" + Id +  "]";
+            return $"{GetType().Name} [Id={Id}]";
         }
 
         // Todo: Vou dar um Override no metodo Equals, que é um método que toda classe possui.
