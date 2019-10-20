@@ -29,7 +29,7 @@ namespace Cooperchip.VTecVistoria.Domain._4.Entities.Models.Agregations.Imobilia
 
         public bool IsLocado { get; private set; }
 
-        // AdRok
+        // Ad Hoc setters e getters
         public void Locar() => IsLocado = true;
         public void Deslocar() => IsLocado = false;
     }
