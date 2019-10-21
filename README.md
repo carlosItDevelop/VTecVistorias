@@ -234,6 +234,10 @@ console.log('WriteMe.md');
 - [ ] Criar os primeiros ValueObjects
 - [ ] Configurar Setters e Getters privates
 - [ ] Criar métodos Ad-Hocs para os getters e stters
+- [ ] Criar Exception de Dominio
+- [ ] Criar VO RG
+- [ ] Criar VO Dimensao
+
 
 
 Consultar a documentação para TagHelpers e ViewComponents, **[Leia aqui](https://docs.microsoft.com/pt-br/)**.
