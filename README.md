@@ -230,6 +230,11 @@ console.log('WriteMe.md');
 - [x] Completar todas as propriedades das entidades
 - [ ] Incluir os métodos Ad Hocs Setters and Getters
 - [ ] Criar o primeiro contexto
+- [ ] Criar novo proejeto DomainCore, onde estará a EntityBase e a Interface IAggegateRoot
+- [ ] Criar os primeiros ValueObjects
+- [ ] Configurar Setters e Getters privates
+- [ ] Criar métodos Ad-Hocs para os getters e stters
+
 
 Consultar a documentação para TagHelpers e ViewComponents, **[Leia aqui](https://docs.microsoft.com/pt-br/)**.
 Consultar a documentação para MarkDown, **[Leia aqui](http://daringfireball.net/projects/markdown/basics)**.
