@@ -228,15 +228,16 @@ console.log('WriteMe.md');
 > New Feature
 
 - [x] Completar todas as propriedades das entidades
-- [ ] Incluir os métodos Ad Hocs Setters and Getters
 - [ ] Criar o primeiro contexto
-- [ ] Criar novo proejeto DomainCore, onde estará a EntityBase e a Interface IAggegateRoot
-- [ ] Criar os primeiros ValueObjects
-- [ ] Configurar Setters e Getters privates
-- [ ] Criar métodos Ad-Hocs para os getters e stters
+- [x] Criar novo proejeto DomainCore, onde estará a EntityBase e a Interface IAggegateRoot
+- [x] Criar os primeiros ValueObjects
+- [ ] Configurar Setters privates
+- [ ] Criar métodos Ad-Hocs para os setters
 - [ ] Criar Exception de Dominio
-- [ ] Criar VO RG
-- [ ] Criar VO Dimensao
+- [x] Criar VO RG
+- [x] Criar VO Dimensoes
+- [x] Criar Interface IDomainGenericRepository in DomainCore
+
 
 
 

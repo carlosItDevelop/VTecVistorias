@@ -27,7 +27,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Repository", "5.Repositor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cooperchip.VTecVistoria.Domain", "src\Cooperchip.VTecVistoria.Domain\Cooperchip.VTecVistoria.Domain.csproj", "{81878133-1F81-4BDE-903B-DEBE79C7276B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooperchip.VTecVistoria.DomainCore", "src\Cooperchip.VTecVistoria.DomainCore\Cooperchip.VTecVistoria.DomainCore.csproj", "{78E64526-4213-4713-92DF-A1490D749366}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cooperchip.VTecVistoria.DomainCore", "src\Cooperchip.VTecVistoria.DomainCore\Cooperchip.VTecVistoria.DomainCore.csproj", "{78E64526-4213-4713-92DF-A1490D749366}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.ConsoleApps", "6.ConsoleApps", "{DA0C60C4-0A60-4096-8D73-8279AB23ECB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooperchip.VTecVistoria.ConsoleApps", "src\Cooperchip.VTecVistoria\Cooperchip.VTecVistoria.ConsoleApps.csproj", "{E98B3707-20FA-4E4B-96E9-E3981DBFEFB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,10 @@ Global
 		{78E64526-4213-4713-92DF-A1490D749366}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78E64526-4213-4713-92DF-A1490D749366}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78E64526-4213-4713-92DF-A1490D749366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E98B3707-20FA-4E4B-96E9-E3981DBFEFB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98B3707-20FA-4E4B-96E9-E3981DBFEFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98B3707-20FA-4E4B-96E9-E3981DBFEFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98B3707-20FA-4E4B-96E9-E3981DBFEFB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +64,7 @@ Global
 		{BA584BD9-FBE0-45BF-A629-56D4EB2F214D} = {1A7B858A-15D2-4F02-9506-F97200E8330B}
 		{81878133-1F81-4BDE-903B-DEBE79C7276B} = {D0B1F13D-2586-4F65-804D-1B9E3725C373}
 		{78E64526-4213-4713-92DF-A1490D749366} = {D0B1F13D-2586-4F65-804D-1B9E3725C373}
+		{E98B3707-20FA-4E4B-96E9-E3981DBFEFB4} = {DA0C60C4-0A60-4096-8D73-8279AB23ECB6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89988819-31F1-433B-B2F7-26E5A98E6671}
