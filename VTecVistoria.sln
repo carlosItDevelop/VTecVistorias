@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cooperchip.VTecVistoria.Dom
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.ConsoleApps", "6.ConsoleApps", "{DA0C60C4-0A60-4096-8D73-8279AB23ECB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooperchip.VTecVistoria.ConsoleApps", "src\Cooperchip.VTecVistoria\Cooperchip.VTecVistoria.ConsoleApps.csproj", "{E98B3707-20FA-4E4B-96E9-E3981DBFEFB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cooperchip.VTecVistoria.ConsoleApps", "src\Cooperchip.VTecVistoria\Cooperchip.VTecVistoria.ConsoleApps.csproj", "{E98B3707-20FA-4E4B-96E9-E3981DBFEFB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cooperchip.Vtec.Mvc", "src\Cooperchip.Vtec.Mvc\Cooperchip.Vtec.Mvc.csproj", "{7B9A650A-5320-4D94-B3BA-5B5C8A373B48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{E98B3707-20FA-4E4B-96E9-E3981DBFEFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E98B3707-20FA-4E4B-96E9-E3981DBFEFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E98B3707-20FA-4E4B-96E9-E3981DBFEFB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B9A650A-5320-4D94-B3BA-5B5C8A373B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9A650A-5320-4D94-B3BA-5B5C8A373B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B9A650A-5320-4D94-B3BA-5B5C8A373B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B9A650A-5320-4D94-B3BA-5B5C8A373B48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +71,7 @@ Global
 		{81878133-1F81-4BDE-903B-DEBE79C7276B} = {D0B1F13D-2586-4F65-804D-1B9E3725C373}
 		{78E64526-4213-4713-92DF-A1490D749366} = {D0B1F13D-2586-4F65-804D-1B9E3725C373}
 		{E98B3707-20FA-4E4B-96E9-E3981DBFEFB4} = {DA0C60C4-0A60-4096-8D73-8279AB23ECB6}
+		{7B9A650A-5320-4D94-B3BA-5B5C8A373B48} = {A04D8CB5-6F5E-4254-89E6-2DD7407BD4A7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89988819-31F1-433B-B2F7-26E5A98E6671}
