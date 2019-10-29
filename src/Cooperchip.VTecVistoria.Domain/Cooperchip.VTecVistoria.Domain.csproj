@@ -6,8 +6,6 @@
 
   <ItemGroup>
     <Folder Include="1.Interfaces\" />
-    <Folder Include="2.Services\" />
-    <Folder Include="3.Repositories\" />
   </ItemGroup>
 
   <ItemGroup>

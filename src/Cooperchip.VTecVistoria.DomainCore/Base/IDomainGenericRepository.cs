@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 namespace Cooperchip.VTecVistoria.DomainCore.Base
 {
 
-    public interface IDomainGenericRepository<TEntity, TKey> : IDisposable
+    public interface IDomainGenericRepository<TEntity, in TKey> : IDisposable
         where TEntity : class
     {
         //Task<List<TEntity>> SelecionarTodos(Expression<Func<TEntity, bool>> quando = null);
